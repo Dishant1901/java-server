@@ -1,0 +1,6 @@
+/workspaces/java-server/server/src/main/java/com/server/repository/UserRepository.java
+/workspaces/java-server/server/src/main/java/com/server/service/UserService.java
+/workspaces/java-server/server/src/main/java/com/server/controllers/Server.java
+/workspaces/java-server/server/src/main/java/com/server/entity/User.java
+/workspaces/java-server/server/src/main/java/com/server/MyApplication.java
+/workspaces/java-server/server/src/main/java/com/server/controllers/UserController.java

@@ -1,0 +1,6 @@
+com/server/controllers/UserController.class
+com/server/entity/User.class
+com/server/repository/UserRepository.class
+com/server/service/UserService.class
+com/server/MyApplication.class
+com/server/controllers/Server.class
