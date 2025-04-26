@@ -30,4 +30,19 @@ public class UserService{
     public List<User> getAllUser(){
         return userRepository.findAll();
     }
+
+    public User updateUser(User user,Long id){
+        User exists = userRepository.findById(id).get();
+
+        if(exists == null){
+            return null;
+        }
+
+        userRepository.save(user);
+        return user;
+    }
+
+    public User FindByName(String name){
+        return userRepository.findByNameIgnoreCase(name);
+    }
 }  
