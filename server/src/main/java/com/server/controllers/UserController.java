@@ -37,4 +37,12 @@ public class UserController{
 
             return ResponseEntity.status(HttpStatus.OK).body(user);
         }
+
+        @PutMapping("/update")
+        public ResponseEntity<?> updateUser(@RequestParam Long id,@RequestBody User user){
+            userService.updateUser(user,id);
+
+            return ResponseEntity.status(HttpStatus.OK).body(user);
+
+        }
     }

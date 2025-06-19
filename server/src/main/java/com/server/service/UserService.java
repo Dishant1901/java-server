@@ -38,8 +38,11 @@ public class UserService{
             return null;
         }
 
-        userRepository.save(user);
-        return user;
+        exists.setEmail(user.getEmail());
+        exists.setName(user.getName());
+        exists.setId(id);
+        userRepository.save(exists);
+        return exists;
     }
 
     public User FindByName(String name){
