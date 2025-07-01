@@ -1,7 +1,11 @@
 /workspaces/java-server/server/src/main/java/com/server/repository/UserRepository.java
+/workspaces/java-server/server/src/main/java/com/server/model/slideDataModel.java
 /workspaces/java-server/server/src/main/java/com/server/service/UserService.java
 /workspaces/java-server/server/src/main/java/com/server/controllers/Server.java
 /workspaces/java-server/server/src/main/java/com/server/entity/User.java
+/workspaces/java-server/server/src/main/java/com/server/model/slideTextModel.java
 /workspaces/java-server/server/src/main/java/com/server/MyApplication.java
 /workspaces/java-server/server/src/main/java/com/server/controllers/UserController.java
 /workspaces/java-server/server/src/main/java/com/server/controllers/productivenew.java
+/workspaces/java-server/server/src/main/java/com/server/Utils/pptUploader.java
+/workspaces/java-server/server/src/main/java/com/server/controllers/pptController.java
